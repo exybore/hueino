@@ -59,6 +59,10 @@ public:
     m_anode = commonAnode;
   }
 
+  void colorLoop()
+  {
+    }
+
 private:
   int m_red_pin;
   int m_green_pin;
