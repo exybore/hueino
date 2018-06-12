@@ -23,33 +23,38 @@ void loop()
   delay(100);
 }
 
+int ledIntensity()
+{
+  return (pot.get() * 255) / 1023;
+}
+
 void getMode()
 {
   switch (mode)
   {
   case 0:
     led.commonAnode(false);
-    led.displayColor(255, 0, 0);
+    led.displayColor(ledIntensity(), 0, 0);
     break;
   case 1:
     led.commonAnode(false);
-    led.displayColor(0, 255, 0);
+    led.displayColor(0, ledIntensity(), 0);
     break;
   case 2:
     led.commonAnode(false);
-    led.displayColor(0, 0, 255);
+    led.displayColor(0, 0, ledIntensity());
     break;
   case 3:
     led.commonAnode(true);
-    led.displayColor(255, 0, 0);
+    led.displayColor(ledIntensity(), 0, 0);
     break;
   case 4:
     led.commonAnode(true);
-    led.displayColor(0, 255, 0);
+    led.displayColor(0, ledIntensity(), 0);
     break;
   case 5:
     led.commonAnode(true);
-    led.displayColor(0, 0, 255);
+    led.displayColor(0, 0, ledIntensity());
     break;
   case 6:
     led.commonAnode(false);
