@@ -14,7 +14,7 @@ public:
   ~Led() {}
 
   /**
-   * @brief Setup the pins in output mode
+   * @brief Setup the pins in output mode.
    * 
    */
 
@@ -26,7 +26,7 @@ public:
   }
 
   /*
-   * @brief Display a specific color
+   * @brief Display a specific color.
    * 
    * @param red [0 .. 255] Display some red
    * @param green [0 .. 255] Display some green
@@ -49,9 +49,9 @@ public:
     }
   }
   /*
-   * @brief Change the mode of the LED
+   * @brief Change the type of the LED.
    * 
-   * @param commonAnode <true|false> The LED mode
+   * @param commonAnode <true|false> - If the LED has a common anode.
    * 
    */
   void commonAnode(bool commonAnode = false)
@@ -61,7 +61,7 @@ public:
 
   void colorLoop()
   {
-    }
+  }
 
 private:
   int m_red_pin;

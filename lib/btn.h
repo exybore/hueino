@@ -13,7 +13,7 @@ public:
   ~Btn() {}
 
   /**
-   * @brief Setup the pin in input mode
+   * @brief Setup the pin in input mode.
    * 
    */
 
@@ -23,7 +23,7 @@ public:
   }
 
   /**
-   * @brief Check if the button is pressed
+   * @brief Check if the button is pressed.
    * 
    * @return true - The button is pressed
    * @return false - The button is'nt pressed

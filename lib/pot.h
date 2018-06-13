@@ -14,7 +14,7 @@ public:
   }
 
   /**
-   * @brief Setup connexion with Serial Monitor
+   * @brief Setup connection with Serial Monitor.
    * 
    */
 
@@ -24,7 +24,7 @@ public:
   }
 
   /**
-   * @brief Listen to the output of the potentiometer using Serial Monitor
+   * @brief Listen to the output of the potentiometer using Serial Monitor.
    * 
    */
 
@@ -34,8 +34,9 @@ public:
   }
 
   /**
-   * @brief Get the value of the potentiometer
+   * @brief Get the value of the potentiometer.
    * 
+   * @return Potentiometer value
    */
 
   int get()

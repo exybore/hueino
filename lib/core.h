@@ -9,10 +9,21 @@ public:
     m_mode = 0;
   }
 
+  /**
+   * @brief Convert the output voltage of the potentiometer to vary LED intensity.
+   * 
+   * @return the converted value
+   */
+
   int ledIntensity()
   {
     return (m_pot.get() * 255) / 1023;
   }
+
+  /**
+   * @brief Get the actual LED mode.
+   * 
+   */
 
   void getMode()
   {
@@ -48,6 +59,11 @@ public:
       break;
     }
   }
+
+  /**
+   * @brief Switch to the next mode.
+   * 
+   */
 
   void switchMode()
   {
