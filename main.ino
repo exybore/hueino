@@ -5,7 +5,7 @@
 
 Pot pot(0);
 Btn btn(13);
-Led led(6, 5, 3);
+Led led(3, 5, 6);
 Core core(led, pot, btn);
 
 void setup()
