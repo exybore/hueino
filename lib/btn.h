@@ -1,16 +1,10 @@
 class Btn
 {
-
 public:
-  Btn()
-  {
-    m_pin = 1;
-  }
   Btn(int pin)
   {
     m_pin = pin;
   }
-  ~Btn() {}
 
   /**
    * @brief Setup the pin in input mode.

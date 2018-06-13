@@ -1,9 +1,6 @@
 class Led
 {
 public:
-  Led()
-  {
-  }
   Led(int redPin, int greenPin, int bluePin, bool commonAnode = false)
   {
     m_red_pin = redPin;
@@ -11,7 +8,6 @@ public:
     m_blue_pin = bluePin;
     m_anode = commonAnode;
   }
-  ~Led() {}
 
   /**
    * @brief Setup the pins in output mode.
