@@ -19,7 +19,7 @@ You can find the hardware setup on the [image schema](docs/shema.png) or the [Fr
 
 MIT License
 
-Copyright (c) 2018 Exybore
+Copyright (c) 2019 Exybore
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
