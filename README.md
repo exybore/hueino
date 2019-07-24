@@ -3,17 +3,17 @@
   <h4>Little program to make multi-colors lightning with an Arduino</h4>
 </div>
 
-- [💡 How it works](#-how-it-works)
-- [🔌Hardware setup](#-hardware-setup)
+- [🌈 How it works](#-how-it-works)
+- [⌨ Hardware setup](#-hardware-setup)
 - [🔐 License](#-license)
 
-## 💡 How it works
+## 🌈 How it works
 
 A button is controlling a RGB LED. When pushing it, it switches between written modes - different colors, and in the future multi-colors. Also, a potentiometer or any kind of variable resistor is controlling the intensity of this LED.
 
-## 🔌 Hardware setup
+## ⌨ Hardware setup
 
-You can find the hardware setup on the [image schema](docs/shema.png) or the [Fritzing schema](docs/schema.fzz).
+You can find the hardware setup on the [image schema](docs/schema.png) or the [Fritzing schema](docs/schema.fzz).
 
 ## 🔐 License
 
